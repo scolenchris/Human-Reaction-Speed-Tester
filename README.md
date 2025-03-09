@@ -47,11 +47,14 @@ This project aims to develop a Human Reaction Speed Tester that evaluates partic
 ## Development Platform
 
 - The project is developed using the EPM1270-V08 development board.
+- ![image](https://github.com/user-attachments/assets/085b7bcb-b9e1-4138-ad98-f613eca90189)
 - QuartusII9.1
 
 ## Module Structure and Overall Block Diagram
 
-(To be filled in)
+![image](https://github.com/user-attachments/assets/a421a835-f3a2-45b5-9ac3-671e9d6c47ba)
+![image](https://github.com/user-attachments/assets/6c70e3de-bf85-4c05-a4f8-04c48d714717)
+
 
 ## Overall Scheme Description
 
