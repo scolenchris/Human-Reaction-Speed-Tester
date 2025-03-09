@@ -1,6 +1,6 @@
 # Human-Reaction-Speed-Tester
 
-[中文版](./README_CN.md)
+- [中文版](./README_CN.md)
 
 ## Project Overview
 
@@ -55,7 +55,6 @@ This project aims to develop a Human Reaction Speed Tester that evaluates partic
 ![image](https://github.com/user-attachments/assets/a421a835-f3a2-45b5-9ac3-671e9d6c47ba)
 ![image](https://github.com/user-attachments/assets/6c70e3de-bf85-4c05-a4f8-04c48d714717)
 
-
 ## Overall Scheme Description
 
 1. **Clock Signal Processing**:
@@ -77,8 +76,8 @@ This project aims to develop a Human Reaction Speed Tester that evaluates partic
 
 ## Module Principles and Diagrams
 
-- For more detail,please click following:
+- Due to space limitations，For more detail,please click following:
 
-[English Version](./Design-EN.md)
+- [English Version](./Design-EN.md)
 
-[中文版](./Design-CN.md)
+- [中文版](./Design-CN.md)

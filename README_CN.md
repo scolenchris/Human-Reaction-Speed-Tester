@@ -1,6 +1,6 @@
 # 人体反应速度测试仪
 
-[English Version](./README_EN.md)
+- [English Version](./README.md)
 
 ## 项目概述
 
@@ -75,10 +75,8 @@
 
 ## 模块原理及示意图
 
-- 了解更多请点击
+- 篇幅所限，了解更多请点击
 
-[English Version](./Design-EN.md)
+- [English Version](./Design-EN.md)
 
-[中文版](./Design-CN.md)
-
----
+- [中文版](./Design-CN.md)
