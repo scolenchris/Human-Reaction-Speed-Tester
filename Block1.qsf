@@ -1,0 +1,126 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+# Date created = 14:30:50  June 07, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Block1_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM1270T144C5
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:30:50  JUNE 07, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_global_assignment -name BDF_FILE main.bdf
+set_global_assignment -name BDF_FILE random.bdf -library lib1
+set_global_assignment -name BDF_FILE fdiv.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE fdiv.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name MISC_FILE "F:/altera/projects/class_t/Block1.dpf"
+set_location_assignment PIN_18 -to CLK1k
+set_global_assignment -name BDF_FILE static.bdf
+set_global_assignment -name BDF_FILE compare.bdf
+set_global_assignment -name BDF_FILE dyn_gen.bdf
+set_global_assignment -name BDF_FILE dy_time.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE dy_gen.vwf
+set_location_assignment PIN_78 -to start
+set_location_assignment PIN_40 -to da
+set_location_assignment PIN_39 -to db
+set_location_assignment PIN_38 -to dc
+set_location_assignment PIN_37 -to dd
+set_location_assignment PIN_44 -to de
+set_location_assignment PIN_43 -to df
+set_location_assignment PIN_42 -to dg
+set_location_assignment PIN_52 -to wei1
+set_location_assignment PIN_51 -to wei2
+set_location_assignment PIN_50 -to wei3
+set_location_assignment PIN_49 -to wei4
+set_location_assignment PIN_72 -to 72
+set_location_assignment PIN_73 -to 73
+set_location_assignment PIN_76 -to 76
+set_location_assignment PIN_77 -to 77
+set_location_assignment PIN_1 -to l1
+set_location_assignment PIN_2 -to l2
+set_location_assignment PIN_3 -to l3
+set_location_assignment PIN_4 -to l4
+set_location_assignment PIN_84 -to bibi
+set_location_assignment PIN_8 -to fail_light8
+set_location_assignment PIN_7 -to sc_light7
+set_global_assignment -name BDF_FILE wrongcount.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE wrongcount.vwf
+set_location_assignment PIN_130 -to s2a
+set_location_assignment PIN_129 -to s2b
+set_location_assignment PIN_127 -to s2c
+set_location_assignment PIN_125 -to s2d
+set_location_assignment PIN_134 -to s2e
+set_location_assignment PIN_133 -to s2f
+set_location_assignment PIN_132 -to s2g
+set_location_assignment PIN_140 -to s1a
+set_location_assignment PIN_139 -to s1b
+set_location_assignment PIN_138 -to s1c
+set_location_assignment PIN_137 -to s1d
+set_location_assignment PIN_144 -to s1e
+set_location_assignment PIN_143 -to s1f
+set_location_assignment PIN_142 -to s1g
+set_location_assignment PIN_6 -to 4timeflaglight6
+set_global_assignment -name BDF_FILE wr_pa.bdf
+set_global_assignment -name BDF_FILE all0to1.bdf
+set_global_assignment -name BDF_FILE SR.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sr.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE wr_pa.vwf
+set_global_assignment -name BDF_FILE mainb1.bdf
+set_location_assignment PIN_41 -to point
+set_global_assignment -name VECTOR_WAVEFORM_FILE random.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE compare.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE dy_time.vwf
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE main.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE main.vwf
+set_location_assignment PIN_88 -to sa1
+set_location_assignment PIN_87 -to sb1
+set_location_assignment PIN_95 -to sf1
+set_location_assignment PIN_94 -to sg1
+set_location_assignment PIN_86 -to sc1
+set_location_assignment PIN_85 -to sd1
+set_location_assignment PIN_96 -to se1
+set_location_assignment PIN_15 -to l15
+set_location_assignment PIN_16 -to l16
+set_location_assignment PIN_21 -to l21
+set_location_assignment PIN_22 -to l22
