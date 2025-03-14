@@ -1,5 +1,34 @@
 # Explanation of Unit Circuit Design Principles and Simulation Waveforms
 
+## Content
+
+- [Explanation of Unit Circuit Design Principles and Simulation Waveforms](#explanation-of-unit-circuit-design-principles-and-simulation-waveforms)
+  - [Content](#content)
+  - [1.1Frequency Divider (fdiv) Design Principles and Simulation Waveforms](#11frequency-divider-fdiv-design-principles-and-simulation-waveforms)
+  - [1.2 Pseudo-Random Number Generator (random) Design Principles and Simulation Waveforms](#12-pseudo-random-number-generator-random-design-principles-and-simulation-waveforms)
+  - [1.3 Comparator Module (compare) Design Principles and Simulation Waveforms](#13-comparator-module-compare-design-principles-and-simulation-waveforms)
+  - [1.4 Dynamic Digital Tube Scanning Signal Generator (dy_gen) Design Principles and Simulation Waveforms](#14-dynamic-digital-tube-scanning-signal-generator-dy_gen-design-principles-and-simulation-waveforms)
+  - [1.5 Design Principle and Simulation Waveform of the Timer Dynamic Digital Tube Display Module dy_time](#15-design-principle-and-simulation-waveform-of-the-timer-dynamic-digital-tube-display-module-dy_time)
+  - [1.6 Design Principle and Simulation Waveform of the Pass/Fail Dynamic Digital Tube Display wr_pa](#16-design-principle-and-simulation-waveform-of-the-passfail-dynamic-digital-tube-display-wr_pa)
+  - [1.7 Design Principle of the Error Count Display wrongcount](#17-design-principle-of-the-error-count-display-wrongcount)
+  - [1.8 Design Principle of the Random Number All-Zero Handling Module all0to1](#18-design-principle-of-the-random-number-all-zero-handling-module-all0to1)
+- [Signal Connection Debugging and Analysis of Unit Modules in the Integrated Circuit](#signal-connection-debugging-and-analysis-of-unit-modules-in-the-integrated-circuit)
+  - [2.1 Integrated Circuit Diagram](#21-integrated-circuit-diagram)
+  - [2.2 Connection and Functional Description of Unit Circuit Modules](#22-connection-and-functional-description-of-unit-circuit-modules)
+    - [2.2.1 Clock Source Distribution and Status LED Display](#221-clock-source-distribution-and-status-led-display)
+    - [2.2.2 Key Input Section](#222-key-input-section)
+    - [2.2.3 Error Counting Display Section](#223-error-counting-display-section)
+    - [2.2.4 Counter Dynamic Seven-Segment Display (Average Time, Pass/Fail)](#224-counter-dynamic-seven-segment-display-average-time-passfail)
+  - [2.3 Input and Output Waveform Simulation](#23-input-and-output-waveform-simulation)
+  - [2.4 Debugging and Analysis](#24-debugging-and-analysis)
+    - [2.4.1 Successful Test Condition Verification](#241-successful-test-condition-verification)
+    - [2.4.2 Timeout Failure Test Condition Verification](#242-timeout-failure-test-condition-verification)
+    - [2.4.3 Excessive Incorrect Key Presses Failure Test Condition Verification](#243-excessive-incorrect-key-presses-failure-test-condition-verification)
+- [3 Anomalies and Solutions](#3-anomalies-and-solutions)
+  - [3.1 Issue with the Error Counting Module](#31-issue-with-the-error-counting-module)
+  - [3.2 Dynamic Scan Tube Refresh Issue](#32-dynamic-scan-tube-refresh-issue)
+  - [3.3 Discrepancy Between Timing Simulation Waveform and Functional Simulation](#33-discrepancy-between-timing-simulation-waveform-and-functional-simulation)
+
 ## 1.1Frequency Divider (fdiv) Design Principles and Simulation Waveforms
 
 **Figure 1.1 Final Circuit Diagram of the Frequency Divider**

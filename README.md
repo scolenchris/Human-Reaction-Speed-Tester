@@ -6,6 +6,26 @@
 
 This project aims to develop a Human Reaction Speed Tester that evaluates participants' reaction times through a series of light and button interactions. The design received a high score of 98 in internal evaluations.
 
+## Module Principles and Diagrams
+
+- Due to space limitations，For more detail,please click following:
+
+- [English Version](./Design-EN.md)
+
+- [中文版](./Design-CN.md)
+
+## Content
+
+- [Human-Reaction-Speed-Tester](#human-reaction-speed-tester)
+  - [Project Overview](#project-overview)
+  - [Module Principles and Diagrams](#module-principles-and-diagrams)
+  - [Content](#content)
+  - [Basic Functions](#basic-functions)
+  - [Development Platform](#development-platform)
+  - [Module Structure and Overall Block Diagram](#module-structure-and-overall-block-diagram)
+  - [Overall Scheme Description](#overall-scheme-description)
+  - [Module Principles and Diagrams](#module-principles-and-diagrams-1)
+
 ## Basic Functions
 
 1. **Test Start**:
